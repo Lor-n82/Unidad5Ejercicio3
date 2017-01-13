@@ -35,6 +35,15 @@ public class Pruebanumero {
         num2.setNumero();
         
         System.out.println("Muestro el valor despues de reiniciarlizarlo: "+num2.getValor());
+        
+        System.out.println();
+        
+        num2.aniade(10);
+        num2.resta(5);
+        
+        System.out.println("Muestra el valor: "+num2.getValor()+"\nMuestra el doble: "+num2.getDoble()+"\nMuestra el triple: "+num2.getTriple());
+        
+        num2.setNumero();
     }
     
 }
